@@ -1,0 +1,24 @@
+phonebook = {
+    "John" : 938477566,
+    "Jack" : 938377264,
+    "Jill" : 947662781
+}
+
+phonebook2 = {
+    "John" : 938477566,
+    "Jack" : 938377264,
+    "Jill" : 947662781
+}
+
+# write your code here
+phonebook["Jake"]=947662783
+phonebook.pop("Jill")
+
+
+# testing code
+if "Jake" in phonebook:
+    print("Jake is listed in the phonebook.")
+if "Jill" not in phonebook:
+    print("Jill is not listed in the phonebook.")
+
+print(phonebook is phonebook)
