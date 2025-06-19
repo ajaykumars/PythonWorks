@@ -13,3 +13,10 @@ name = "John"
 if name in ["John", "Rick"]:
     print("Your name is either John or Rick.")
 
+#Ternary Operator
+x = -1
+print("positive" if x > 0 else "zero or negative")
+
+
+
+

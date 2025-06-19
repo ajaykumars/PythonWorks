@@ -46,8 +46,8 @@ import datetime as dt
 
 # show all functions in math module
 dir(math)
-
-
+help("math")
+help("math.sin")
 
 ### DATA TYPES ###
 
@@ -500,7 +500,7 @@ range(3)        # equivalent: default start value is 0
 range(0, 5, 2)  # returns [0, 2, 4]: third argument is the step value
 
 # Python 2 only: use xrange to create a sequence rather than a list (saves memory)
-xrange(100, 100000, 5)
+#xrange(100, 100000, 5)
 
 # for loop (not the recommended style)
 fruits = ['apple', 'banana', 'cherry']
